@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo '-----> Writing vi-mode config to .inputrc'
+echo "set editing-mode vi"   >> "$1/.inputrc"
+echo "set keymap vi-command" >> "$1/.inputrc"
